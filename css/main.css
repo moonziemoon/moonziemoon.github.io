@@ -94,7 +94,7 @@ a {
 
 .intro p {
   animation-delay: 1s;
-  background-color: var(--dark-color-color);
+  background-color: var(--dark-color);
   padding: 15px;
   margin: 10px 0;
   border-radius: 5px;
