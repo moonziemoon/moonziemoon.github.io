@@ -387,20 +387,17 @@ h2 {
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
 }
 
 .gallery-item {
-  background: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex: 1 1 30%;
+  max-width: 300px;
   text-align: center;
-  transition: transform 0.3s;
-  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .gallery-item:hover {
@@ -410,8 +407,7 @@ h2 {
 .gallery-item img {
   width: 100%;
   height: auto;
-  border-radius: 5px;
-  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .gallery-item p {
