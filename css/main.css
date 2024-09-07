@@ -605,17 +605,17 @@ footer nav ul li a {
 .intro p {
   background-color: #fff;
   padding: 10px 0;
-  margin: 0;
+  margin: 30px;
   background-color: transparent;
   border: none;
 }
 
 .bubble-text {
   background-color: #ffeb3b; /* Yellow bubble around text*/
-  padding: 15px;
+  padding: 20px;
   border-radius: 20px;
   display: inline-block;
   color: #000;
-  margin: 0;
+  margin: 10px 0;
   box-shadow: none;
 }
