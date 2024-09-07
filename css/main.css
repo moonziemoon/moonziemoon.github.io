@@ -617,7 +617,7 @@ footer nav ul li a {
 }
 
 .bubble-text {
-  background-color: #ffeb3b; /* Yellow bubble around text*/
+  background-color: #ffcc00; /* Yellow bubble around text*/
   padding: 20px;
   border-radius: 20px;
   display: flex;
